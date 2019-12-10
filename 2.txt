@@ -1,0 +1,1578 @@
+
+INFO    General        [DTXDiagnostics.m:87-771-1] log level set to INFO
+INFO    Session        [Dynatrace.m:193-771-1] Tenant not configured, auto-instrumentation not enabled2019-12-10 17:47:30.206684+0800 iOSDemo[83175:1666494]  - <AppMeasurement>[I-ACS036002] Analytics screen reporting is enabled. Call +[FIRAnalytics setScreenName:setScreenClass:] to set the screen name or override the default screen class name. To disable screen reporting, set the flag FirebaseScreenReportingEnabled to NO (boolean) in the Info.plist
+[DEBUG] Did open IPv4 listening socket 5
+[DEBUG] Did open IPv6 listening socket 6
+[INFO] GCDWebServer started on port 8080 and reachable at (null)
+2019-12-10 17:47:30 +0000 [bonreeAgent]  +[BRSAgent setLogFlag:]:65535
+2019-12-10 17:47:30 +0000 [bonreeAgent]  +[BRSAgent setConfigAddress:]:http://devtest.ibr.cc:20107/config
+2019-12-10 17:47:30 +0000 [bonreeAgent]  +[BRSAgent setConfigAddress:]:http://devtest.ibr.cc:20107/config
+2019-12-10 17:47:30 +0000 [bonreeAgent]  +[BRSAgent setChannelName:]:Agent Demo
+2019-12-10 17:47:30 +0000 [bonreeAgent]  +[BRSAgent setAppVersion:]:1.0.0
+2019-12-10 17:47:30 +0000 [bonreeAgent]  bonreeAgent(6.3.3) start, appid:ac629f8f-df02-4b8f-aa52-44bf292c6507
+2019-12-10 17:47:30 +0000 [bonreeAgent]  app启动时间（cpu启动到现在的微秒数）:116132882717
+2019-12-10 17:47:30 +0000 [bonreeAgent]  BRSAgent注册App状态引擎成功
+2019-12-10 17:47:30 +0000 [bonreeAgent]  App状态引擎启动
+2019-12-10 17:47:30 +0000 [bonreeAgent] [CONFIG]  config本地缓存:
+{
+  "ats" : 20,
+  "ckt" : 0,
+  "di" : 2005480489,
+  "ess" : 20,
+  "fc" : [
+    "Net",
+    "Crash",
+    "Webview",
+    "Interact",
+    "ANR",
+    "Lag",
+    "Activity",
+    "ActionActivity",
+    "Session"
+  ],
+  "functionType" : 3839,
+  "gi" : "noGray",
+  "it" : 1000,
+  "lth" : 5,
+  "mt" : 1575967135873,
+  "ndm" : false,
+  "not" : true,
+  "nt" : true,
+  "pa" : "http://www.baidu.com",
+  "ra" : "https://devtest.ibr.cc:20108/upload",
+  "rateOfLuanchEndTime" : 0,
+  "rc" : 43,
+  "rcy" : [
+    30
+  ],
+  "rol" : 100,
+  "rolt" : 0,
+  "si" : "4:2:11a83a15-cd52-4c87-b803-98327196451d"
+}
+2019-12-10 17:47:30 +0000 [bonreeAgent] [CRASH]  ⚠️⚠️⚠️崩溃handler设置失败⚠️⚠️⚠️
+2019-12-10 17:47:30 +0000 [bonreeAgent] [CRASH]  ❌❌❌崩溃模块开启失败❌❌❌
+2019-12-10 17:47:30 +0000 [bonreeAgent]  BRSUserTrackService注册App状态引擎成功
+2019-12-10 17:47:30 +0000 [bonreeAgent] [VIEW]  开启视图引擎
+2019-12-10 17:47:30 +0000 [bonreeAgent] [VIEW]  BRSUserTrackService注册视图引擎服务成功
+2019-12-10 17:47:30 +0000 [bonreeAgent]  BRSUserTrackService注册方法引擎成功
+2019-12-10 17:47:30 +0000 [bonreeAgent]  方法引擎启动
+2019-12-10 17:47:30 +0000 [bonreeAgent]  +[BRSClassManager getAllRegistedClasses], ♨️All registed class count (objc_copyClassNamesForImage):937
+
+2019-12-10 17:47:30 +0000 [bonreeAgent]  +[BRSClassManager getCustomControllerClasses], ♨️Custom VC class count:85
+
+2019-12-10 17:47:30 +0000 [bonreeAgent] [USERTRACK]  开启轨迹服务模块成功
+2019-12-10 17:47:30 +0000 [bonreeAgent] [USERTRACK]  轨迹服务模块已经开启
+2019-12-10 17:47:30 +0000 [bonreeAgent]  BRSLagService注册App状态引擎成功
+2019-12-10 17:47:30 +0000 [bonreeAgent] [LAG]  卡顿引擎启动
+2019-12-10 17:47:30 +0000 [bonreeAgent] [LAG]  开启新的runloop 监听
+2019-12-10 17:47:30 +0000 [bonreeAgent] [LAG]  BRSLagService注册视图引擎服务成功
+2019-12-10 17:47:30 +0000 [bonreeAgent] [LAG]  开启卡顿模块
+2019-12-10 17:47:30 +0000 [bonreeAgent]  BRSViewService注册App状态引擎成功
+2019-12-10 17:47:30 +0000 [bonreeAgent] [VIEW]  视图引擎已启动
+2019-12-10 17:47:30 +0000 [bonreeAgent] [VIEW]  BRSViewService注册视图引擎服务成功
+2019-12-10 17:47:30 +0000 [bonreeAgent] [VIEW]  开启视图模块
+2019-12-10 17:47:30 +0000 [bonreeAgent]  BRSInteractService注册App状态引擎成功
+2019-12-10 17:47:30 +0000 [bonreeAgent]  BRSInteractService注册方法引擎成功
+2019-12-10 17:47:30 +0000 [bonreeAgent] [INTERACT]  开启交互服务模块成功
+2019-12-10 17:47:30 +0000 [bonreeAgent] [CONFIG]  有网络，发起config请求
+2019-12-10 17:47:30 +0000 [bonreeAgent] [CONFIG]  -[BRSConfigService configRequest:], uploadState:0, now
+2019-12-10 17:47:30 +0000 [bonreeAgent] [CONFIG]  bonreeAgent config address:http://devtest.ibr.cc:20107/config
+2019-12-10 17:47:30 +0000 [bonreeAgent]  BRSInteractService注册内存Cpu引擎成功
+2019-12-10 17:47:30 +0000 [bonreeAgent]  内存Cpu引擎启动
+2019-12-10 17:47:30 +0000 [bonreeAgent] [CRASH]  获取失败:本地无崩溃报表数据
+2019-12-10 17:47:30 +0000 [bonreeAgent] [CRASH]  共0条崩溃报表移入待上传队列
+2019-12-10 17:47:30 +0000 [bonreeAgent] [CONFIG]
+{
+  "cr" : {
+    "ci" : [
+
+    ],
+    "ds" : {
+      "ac" : 36.099998474121094,
+      "ame" : 15.09765625,
+      "gla" : 0,
+      "glo" : 0,
+      "ib" : false,
+      "igo" : false,
+      "io" : false,
+      "ot" : 1,
+      "sa" : 15927.81640625,
+      "sab" : 100,
+      "sas" : 40405,
+      "sc" : 10.619942665100098
+    },
+    "emt" : 1575546138165,
+    "gi" : "noGray",
+    "nsi" : {
+      "ns" : "WiFi",
+      "s" : 0
+    },
+    "r" : false
+  },
+  "h" : {
+    "ai" : "ac629f8f-df02-4b8f-aa52-44bf292c6507",
+    "di" : {
+      "an" : "iOSDemo",
+      "av" : "1.0.0(1)",
+      "bn" : "apple",
+      "ch" : "apple",
+      "ci" : "Intel x86",
+      "cm" : "Intel x86",
+      "di" : "B356B75D-AC64-4832-BD87-2B9DA894B940",
+      "ds" : "1242*2688",
+      "ir" : false,
+      "l" : "en",
+      "m" : "iPhone Simulator(iPhone 11 Pro Max)",
+      "ov" : "iOS, 13.2.2",
+      "pi" : "Agent Demo",
+      "pm" : "x86_64",
+      "tm" : 16384
+    },
+    "dip" : 0,
+    "sv" : "6.3.3"
+  }
+}
+2019-12-10 17:47:30 +0000 [bonreeAgent] [CONFIG]  -[BRSConfigService configRequest:], 发送数据
+2019-12-10 17:47:30 +0000 [bonreeAgent]  BRSInteractService已注册内存Cpu引擎
+2019-12-10 17:47:30 +0000 [bonreeAgent]  BRSInteractService已注册内存Cpu引擎
+2019-12-10 17:47:30 +0000 [bonreeAgent]  BRSInteractService已注册内存Cpu引擎
+2019-12-10 17:47:30 +0000 [bonreeAgent]  BRSInteractService已注册内存Cpu引擎
+2019-12-10 17:47:30 +0000 [bonreeAgent]  BRSInteractService已注册内存Cpu引擎
+2019-12-10 17:47:30 +0000 [bonreeAgent] [VIEW]  ⚠️⚠️⚠️过滤系统视图控制器: UIInputWindowController⚠️⚠️⚠️
+2019-12-10 17:47:30 +0000 [bonreeAgent] [VIEW]  ⚠️⚠️⚠️过滤系统视图控制器: UIInputWindowController⚠️⚠️⚠️
+2019-12-10 17:47:30 +0000 [bonreeAgent] [VIEW]  ⚠️⚠️⚠️过滤系统视图控制器: UIEditingOverlayViewController⚠️⚠️⚠️
+2019-12-10 17:47:30 +0000 [bonreeAgent] [VIEW]  ⚠️⚠️⚠️过滤系统视图控制器: UIEditingOverlayViewController⚠️⚠️⚠️
+2019-12-10 17:47:30 +0000 [bonreeAgent] [VIEW]  ⚠️⚠️⚠️视图控制器<ZHCustomTabBarController: 0x7fc8bc838a00>被作为view使用⚠️⚠️⚠️
+2019-12-10 17:47:30 +0000 [bonreeAgent] [VIEW]  ⚠️⚠️⚠️过滤系统视图控制器: UIInputWindowController⚠️⚠️⚠️
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] ----开始--------
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] url:http://devtest.ibr.cc:20107/config
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] time:532697
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesDecoded:351
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesReceived:548
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] LocalAddressAndPort:192.168.1.170:52678
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] RemoteAddressAndPort:118.194.54.130:20107
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] RequestHeaderSize:279
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] ResponseHeaderSize:197
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] TimingDataInit:597664050.601046
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] NetworkProtocolName:http/1.1
+2019-12-10 17:47:31 +0000 [bonreeAgent] [CONFIG]
+{
+  "cr" : {
+    "ats" : 20,
+    "ckt" : 0,
+    "di" : 2005480489,
+    "dk" : "89674512",
+    "ds" : 1,
+    "ess" : 20,
+    "fc" : [
+      "Net",
+      "Crash",
+      "Webview",
+      "Interact",
+      "ANR",
+      "Lag",
+      "Activity",
+      "ActionActivity",
+      "Session"
+    ],
+    "gi" : "noGray",
+    "hfp" : 1.3999999999999999,
+    "hlt" : 5,
+    "ilt" : 0,
+    "iosl" : false,
+    "it" : 1000,
+    "lth" : 5,
+    "mt" : 1575971250655,
+    "nc" : 0,
+    "ndm" : false,
+    "not" : true,
+    "nt" : true,
+    "pa" : "http://www.baidu.com",
+    "ra" : "https://devtest.ibr.cc:20108/upload",
+    "rc" : 43,
+    "rcy" : [
+      30
+    ],
+    "rol" : 100,
+    "rolt" : 0,
+    "si" : "4:2:4d6c3234-3224-4adc-9cc1-a12ef3ef2874"
+  },
+  "di" : "B356B75D-AC64-4832-BD87-2B9DA894B940"
+}
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionInterfaceIdentifier:en19
+2019-12-10 17:47:31 +0000 [bonreeAgent] [CONFIG]  +[BRSConfigHelper configDataParsing:], 解析数据
+2019-12-10 17:47:31 +0000 [bonreeAgent]  +[SDKResponse modelWithJsonData:], 解析数据
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] ResponseStart:597664051.0352449
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesReceived:351
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionUUID:2425B5C9-04CE-48E7-B17F-40CA961D6A44
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupStart:597664050.93154
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionPeerAddress:{length = 16, bytes = 0x10024e8b76c236820000000000000000}
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] TCPFastOpenStats:{
+    TFOSuccess = 0;
+}
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] FetchStart:597664050.601046
+2019-12-10 17:47:31 +0000 [bonreeAgent] [CONFIG]  config结束时间（cpu启动到现在的微秒数）:116133423782
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupEnd:597664050.95454
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] RequestEnd:597664050.992883
+2019-12-10 17:47:31 +0000 [bonreeAgent] [CRASH]  删除失败:本地无崩溃报表数据
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionReused:0
+2019-12-10 17:47:31 +0000 [bonreeAgent] [CONFIG]  bonreeAgent: responseCode==FALSE(43:local filter——> Month live day live unlimited and allow repeated sampling)
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStartTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 36;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 0;
+    "_kCFNTimingDataNStatRXBytes" = 0;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 0;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 0;
+    "_kCFNTimingDataNStatRXPackets" = 0;
+    "_kCFNTimingDataNStatTXBytes" = 0;
+    "_kCFNTimingDataNStatTXPackets" = 0;
+    "_kCFNTimingDataNStatTXRetransmit" = 0;
+    "_kCFNTimingDataNStatVarRTT" = 18;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 0;
+    "_kCFNTimingDataNStatWiredTXPackets" = 0;
+}
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] RequestStart:597664050.992069
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] ResponseEnd:597664051.03685
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesSent:688
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStopTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 36;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 43;
+    "_kCFNTimingDataNStatRXBytes" = 548;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 0;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 0;
+    "_kCFNTimingDataNStatRXPackets" = 1;
+    "_kCFNTimingDataNStatTXBytes" = 688;
+    "_kCFNTimingDataNStatTXPackets" = 2;
+    "_kCFNTimingDataNStatTXRetransmit" = 0;
+    "_kCFNTimingDataNStatVarRTT" = 13;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 548;
+    "_kCFNTimingDataNStatWiredTXPackets" = 688;
+}
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] ConnectEnd:597664050.9935399
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] ConnectStart:597664050.9555399
+2019-12-10 17:47:31 +0000 [bonreeAgent] [NET]  [TimingData] --------结束--------
+2019-12-10 17:47:31 +0000 [bonreeAgent] [CRASH]  ⚠️⚠️⚠️崩溃handler设置失败⚠️⚠️⚠️
+2019-12-10 17:47:31 +0000 [bonreeAgent] [CRASH]  ❌❌❌崩溃模块开启失败❌❌❌
+2019-12-10 17:47:31 +0000 [bonreeAgent] [USERTRACK]  轨迹服务模块已经开启
+2019-12-10 17:47:31 +0000 [bonreeAgent] [USERTRACK]  轨迹服务模块已经开启
+2019-12-10 17:47:31 +0000 [bonreeAgent] [LAG]  卡顿模块已开启
+2019-12-10 17:47:31 +0000 [bonreeAgent] [VIEW]  视图模块已开启
+2019-12-10 17:47:31 +0000 [bonreeAgent] [INTERACT]  交互服务模块已经开启
+2019-12-10 17:47:31 +0000 [bonreeAgent] [CONFIG]  bonreeAgent config succeeded
+2019-12-10 17:47:31 +0000 [bonreeAgent] [UPLOAD]  -[BRSUploadService startUpload], uploadState:0
+2019-12-10 17:47:31 +0000 [bonreeAgent]  BRSUploadService注册App状态引擎成功
+2019-12-10 17:47:31 +0000 [bonreeAgent]  -[BRSTcping tcpingWithPingAddress:]
+2019-12-10 17:47:31 +0000 [bonreeAgent]  tcping connect cost:10 ms
+[VERBOSE] Bonjour registration complete for GCDWebServer
+[INFO] GCDWebServer now locally reachable at http://odeMacBook-Pro.local:8080/
+2019-12-10 17:47:37 +0000 [bonreeAgent]  BRSInteractService已注册内存Cpu引擎
+2019-12-10 17:47:38 +0000 [bonreeAgent]  BRSInteractService已注册内存Cpu引擎
+2019-12-10 17:47:38.130992+0800 iOSDemo[83175:1666335] [Warning] Warning once only: Detected a case where constraints ambiguously suggest a height of zero for a table view cell's content view. We're considering the collapse unintentional and using standard height instead. Cell: <UITableViewCell: 0x7fc8badad660; frame = (0 55.5; 414 44); text = '使用http/https数据源'; clipsToBounds = YES; autoresize = W; layer = <CALayer: 0x6000006c3a60>>
+2019-12-10 17:47:39 +0000 [bonreeAgent]  BRSInteractService已注册内存Cpu引擎
+2019-12-10 17:47:43 +0000 [bonreeAgent]  BRSInteractService已注册内存Cpu引擎
+WebViewContentViewController load url = https://ecuat.tk.cn/tk-online/pos/trb/#/prdResult?pageId=dff46ee58c394be0a788fc8b5d7b93e0 method =  - loadRequest: baseURL = https://ecuat.tk.cn/tk-online/pos/#/prdResult?pageId=dff46ee58c394be0a788fc8b5d7b93e0
+2019-12-10 17:47:45 +0000 [bonreeAgent]  BRSInteractService已注册内存Cpu引擎
+2019-12-10 17:47:45 +0000 [bonreeAgent] [NET]  [caninit] GET url:https://ecuat.tk.cn/tk-online/pos/trb/#/prdResult?pageId=dff46ee58c394be0a788fc8b5d7b93e0
+2019-12-10 17:47:45 +0000 [bonreeAgent] [NET]  [caninit] GET url:https://ecuat.tk.cn/tk-online/pos/trb/#/prdResult?pageId=dff46ee58c394be0a788fc8b5d7b93e0
+2019-12-10 17:47:45 +0000 [bonreeAgent] [NET]  [caninit] GET url:https://ecuat.tk.cn/tk-online/pos/trb/#/prdResult?pageId=dff46ee58c394be0a788fc8b5d7b93e0
+2019-12-10 17:47:45 +0000 [bonreeAgent] [NET]  [startLoading] url:<NSMutableURLRequest: 0x600000461d00> { URL: https://ecuat.tk.cn/tk-online/pos/trb/#/prdResult?pageId=dff46ee58c394be0a788fc8b5d7b93e0 }
+2019-12-10 17:47:45.999322+0800 iOSDemo[83175:1666812] WF: === Starting WebFilter logging for process iOSDemo
+2019-12-10 17:47:45.999533+0800 iOSDemo[83175:1666812] WF: _userSettingsForUser : (null)
+2019-12-10 17:47:45.999638+0800 iOSDemo[83175:1666812] WF: _WebFilterIsActive returning: NO
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ----开始--------
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] url:https://ecuat.tk.cn/tk-online/pos/trb/#/prdResult?pageId=dff46ee58c394be0a788fc8b5d7b93e0
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] time:15502895
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesDecoded:1468
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesReceived:1587
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] LocalAddressAndPort:192.168.1.170:52683
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RemoteAddressAndPort:119.253.81.48:443
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RequestHeaderSize:337
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] SecureConnectionStart:597664065.658422
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [stopLoading] url:<NSMutableURLRequest: 0x600000461d00> { URL: https://ecuat.tk.cn/tk-online/pos/trb/#/prdResult?pageId=dff46ee58c394be0a788fc8b5d7b93e0 }
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseHeaderSize:119
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [caninit] GET url:https://res.wx.qq.com/open/js/jweixin-1.0.0.js
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TimingDataInit:597664065.475871
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] NetworkProtocolName:http/1.1
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionInterfaceIdentifier:en19
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseStart:597664065.964618
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesReceived:1468
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [startLoading] url:<NSMutableURLRequest: 0x600000444140> { URL: https://res.wx.qq.com/open/js/jweixin-1.0.0.js }
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionUUID:8CF4B1E7-BDB3-4A35-BF1C-70AE300BA8A6
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupStart:597664065.487422
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionPeerAddress:{length = 16, bytes = 0x100201bb77fd51300000000000000000}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TCPFastOpenStats:{
+    TFOSuccess = 0;
+}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] FetchStart:597664065.475871
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [caninit] GET url:https://ecuat.tk.cn/tk-online/pos/trb/base64.js
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupEnd:597664065.534422
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RequestEnd:597664065.921048
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionReused:0
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [startLoading] url:<NSMutableURLRequest: 0x600000461cd0> { URL: https://ecuat.tk.cn/tk-online/pos/trb/base64.js }
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStartTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 117;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 152;
+    "_kCFNTimingDataNStatRXBytes" = 3073;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 0;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 0;
+    "_kCFNTimingDataNStatRXPackets" = 4;
+    "_kCFNTimingDataNStatTXBytes" = 859;
+    "_kCFNTimingDataNStatTXPackets" = 2;
+    "_kCFNTimingDataNStatTXRetransmit" = 0;
+    "_kCFNTimingDataNStatVarRTT" = 70;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 3073;
+    "_kCFNTimingDataNStatWiredTXPackets" = 859;
+}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RequestStart:597664065.920837
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [caninit] GET url:https://ecuat.tk.cn/tk-online/pos/trb/css/chunk-vendors.b93d4f01.css
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseEnd:597664066.00684
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesSent:337
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStopTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 108;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 143;
+    "_kCFNTimingDataNStatRXBytes" = 4747;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 0;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 0;
+    "_kCFNTimingDataNStatRXPackets" = 8;
+    "_kCFNTimingDataNStatTXBytes" = 1248;
+    "_kCFNTimingDataNStatTXPackets" = 3;
+    "_kCFNTimingDataNStatTXRetransmit" = 0;
+    "_kCFNTimingDataNStatVarRTT" = 71;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 4747;
+    "_kCFNTimingDataNStatWiredTXPackets" = 1248;
+}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [startLoading] url:<NSMutableURLRequest: 0x60000044c250> { URL: https://ecuat.tk.cn/tk-online/pos/trb/css/chunk-vendors.b93d4f01.css }
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectEnd:597664065.9194219
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [caninit] GET url:https://ecuat.tk.cn/tk-online/pos/trb/css/app.78a9ad11.css
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectStart:597664065.535422
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] --------结束--------
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [startLoading] url:<NSMutableURLRequest: 0x6000004441b0> { URL: https://ecuat.tk.cn/tk-online/pos/trb/css/app.78a9ad11.css }
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [caninit] GET url:https://ecuat.tk.cn/tk-online/pos/trb/js/chunk-vendors.c5f7e3c1.js
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [caninit] GET url:https://ecuat.tk.cn/tk-online/pos/trb/app.caf0cc767f97177f757b.bundle.js
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [startLoading] url:<NSMutableURLRequest: 0x60000044c2f0> { URL: https://ecuat.tk.cn/tk-online/pos/trb/js/chunk-vendors.c5f7e3c1.js }
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [startLoading] url:<NSMutableURLRequest: 0x600000478600> { URL: https://ecuat.tk.cn/tk-online/pos/trb/app.caf0cc767f97177f757b.bundle.js }
+2019-12-10 17:47:46 +0000 [bonreeAgent]  -[BRSTcping tcpingWithPingAddress:]
+2019-12-10 17:47:46 +0000 [bonreeAgent]  tcping connect cost:37 ms
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ----开始--------
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] url:https://res.wx.qq.com/open/js/jweixin-1.0.0.js
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] time:15729307
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesDecoded:9632
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesReceived:3522
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] LocalAddressAndPort:240e:fa:f881:a966:2105:f70d:aa05:3443.52685
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RemoteAddressAndPort:240e:ff:d300:204:12::.443
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RequestHeaderSize:186
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] SecureConnectionStart:597664066.103665
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseHeaderSize:292
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TimingDataInit:597664066.0120929
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] NetworkProtocolName:h2
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [stopLoading] url:<NSMutableURLRequest: 0x600000444140> { URL: https://res.wx.qq.com/open/js/jweixin-1.0.0.js }
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionInterfaceIdentifier:en19
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseStart:597664066.229789
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesReceived:3230
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionUUID:DAC26C80-257C-4B55-A7AE-0266BF030ECE
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupStart:597664066.035665
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionPeerAddress:{length = 28, bytes = 0x1c1e01bb 00000000 240e00ff d3000204 ... 00000000 00000000 }
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TCPFastOpenStats:{
+    TFOSuccess = 0;
+}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] FetchStart:597664066.0120929
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupEnd:597664066.063665
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RequestEnd:597664066.209015
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionReused:0
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStartTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 27;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 36;
+    "_kCFNTimingDataNStatRXBytes" = 4265;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 0;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 0;
+    "_kCFNTimingDataNStatRXPackets" = 6;
+    "_kCFNTimingDataNStatTXBytes" = 788;
+    "_kCFNTimingDataNStatTXPackets" = 5;
+    "_kCFNTimingDataNStatTXRetransmit" = 0;
+    "_kCFNTimingDataNStatVarRTT" = 17;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 4265;
+    "_kCFNTimingDataNStatWiredTXPackets" = 788;
+}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RequestStart:597664066.2088749
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseEnd:597664066.233529
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesSent:186
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStopTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 25;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 33;
+    "_kCFNTimingDataNStatRXBytes" = 7883;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 0;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 0;
+    "_kCFNTimingDataNStatRXPackets" = 11;
+    "_kCFNTimingDataNStatTXBytes" = 1597;
+    "_kCFNTimingDataNStatTXPackets" = 10;
+    "_kCFNTimingDataNStatTXRetransmit" = 556;
+    "_kCFNTimingDataNStatVarRTT" = 17;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 7883;
+    "_kCFNTimingDataNStatWiredTXPackets" = 1597;
+}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectEnd:597664066.206665
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectStart:597664066.067665
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] --------结束--------
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ----开始--------
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] url:https://ecuat.tk.cn/tk-online/pos/trb/base64.js
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] time:15853849
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesDecoded:2163
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesReceived:2412
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] LocalAddressAndPort:192.168.1.170:52686
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RemoteAddressAndPort:119.253.81.48:443
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RequestHeaderSize:335
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [stopLoading] url:<NSMutableURLRequest: 0x600000461cd0> { URL: https://ecuat.tk.cn/tk-online/pos/trb/base64.js }
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] SecureConnectionStart:597664066.173968
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseHeaderSize:249
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TimingDataInit:597664066.0123841
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] NetworkProtocolName:http/1.1
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionInterfaceIdentifier:en19
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseStart:597664066.357685
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesReceived:2163
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionUUID:AD5952B0-0FB6-402D-B713-6D299F2F3949
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupStart:597664066.037968
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionPeerAddress:{length = 16, bytes = 0x100201bb77fd51300000000000000000}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TCPFastOpenStats:{
+    TFOSuccess = 0;
+}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] FetchStart:597664066.0123841
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupEnd:597664066.064968
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RequestEnd:597664066.303849
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionReused:0
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStartTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 74;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 95;
+    "_kCFNTimingDataNStatRXBytes" = 3073;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 0;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 0;
+    "_kCFNTimingDataNStatRXPackets" = 4;
+    "_kCFNTimingDataNStatTXBytes" = 859;
+    "_kCFNTimingDataNStatTXPackets" = 2;
+    "_kCFNTimingDataNStatTXRetransmit" = 0;
+    "_kCFNTimingDataNStatVarRTT" = 42;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 3073;
+    "_kCFNTimingDataNStatWiredTXPackets" = 859;
+}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RequestStart:597664066.3037421
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseEnd:597664066.357995
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesSent:335
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStopTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 71;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 90;
+    "_kCFNTimingDataNStatRXBytes" = 5579;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 0;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 0;
+    "_kCFNTimingDataNStatRXPackets" = 7;
+    "_kCFNTimingDataNStatTXBytes" = 1248;
+    "_kCFNTimingDataNStatTXPackets" = 3;
+    "_kCFNTimingDataNStatTXRetransmit" = 0;
+    "_kCFNTimingDataNStatVarRTT" = 37;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 5579;
+    "_kCFNTimingDataNStatWiredTXPackets" = 1248;
+}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectEnd:597664066.301968
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectStart:597664066.069968
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] --------结束--------
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ----开始--------
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] url:https://ecuat.tk.cn/tk-online/pos/trb/css/app.78a9ad11.css
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] time:15936809
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesDecoded:24941
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesReceived:25178
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] LocalAddressAndPort:192.168.1.170:52688
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [stopLoading] url:<NSMutableURLRequest: 0x6000004441b0> { URL: https://ecuat.tk.cn/tk-online/pos/trb/css/app.78a9ad11.css }
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RemoteAddressAndPort:119.253.81.48:443
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RequestHeaderSize:361
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] SecureConnectionStart:597664066.17863
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseHeaderSize:237
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TimingDataInit:597664066.014321
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] NetworkProtocolName:http/1.1
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionInterfaceIdentifier:en19
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseStart:597664066.3587
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesReceived:24941
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionUUID:903A1A42-0A0B-46CF-81DB-E5E1D06758E1
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupStart:597664066.04263
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionPeerAddress:{length = 16, bytes = 0x100201bb77fd51300000000000000000}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TCPFastOpenStats:{
+    TFOSuccess = 0;
+}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] FetchStart:597664066.014321
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupEnd:597664066.06663
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RequestEnd:597664066.307776
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionReused:0
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStartTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 73;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 94;
+    "_kCFNTimingDataNStatRXBytes" = 3073;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 0;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 0;
+    "_kCFNTimingDataNStatRXPackets" = 4;
+    "_kCFNTimingDataNStatTXBytes" = 859;
+    "_kCFNTimingDataNStatTXPackets" = 2;
+    "_kCFNTimingDataNStatTXRetransmit" = 0;
+    "_kCFNTimingDataNStatVarRTT" = 41;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 3073;
+    "_kCFNTimingDataNStatWiredTXPackets" = 859;
+}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RequestStart:597664066.307685
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseEnd:597664066.440953
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesSent:361
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStopTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 58;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 72;
+    "_kCFNTimingDataNStatRXBytes" = 28670;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 0;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 0;
+    "_kCFNTimingDataNStatRXPackets" = 30;
+    "_kCFNTimingDataNStatTXBytes" = 1264;
+    "_kCFNTimingDataNStatTXPackets" = 3;
+    "_kCFNTimingDataNStatTXRetransmit" = 0;
+    "_kCFNTimingDataNStatVarRTT" = 28;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 28670;
+    "_kCFNTimingDataNStatWiredTXPackets" = 1264;
+}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectEnd:597664066.30663
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectStart:597664066.07163
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] --------结束--------
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ----开始--------
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] url:https://ecuat.tk.cn/tk-online/pos/trb/app.caf0cc767f97177f757b.bundle.js
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] time:16005685
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesDecoded:138419
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesReceived:138672
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [stopLoading] url:<NSMutableURLRequest: 0x600000478600> { URL: https://ecuat.tk.cn/tk-online/pos/trb/app.caf0cc767f97177f757b.bundle.js }
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] LocalAddressAndPort:192.168.1.170:52690
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RemoteAddressAndPort:119.253.81.48:443
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RequestHeaderSize:360
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] SecureConnectionStart:597664066.160694
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseHeaderSize:253
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TimingDataInit:597664066.018121
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] NetworkProtocolName:http/1.1
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionInterfaceIdentifier:en19
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseStart:597664066.3534679
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesReceived:138419
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionUUID:1C525601-EC07-478C-82AB-6525C6D4C385
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupStart:597664066.047694
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionPeerAddress:{length = 16, bytes = 0x100201bb77fd51300000000000000000}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TCPFastOpenStats:{
+    TFOSuccess = 0;
+}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] FetchStart:597664066.018121
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupEnd:597664066.0696939
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RequestEnd:597664066.286032
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionReused:0
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStartTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 72;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 91;
+    "_kCFNTimingDataNStatRXBytes" = 3073;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 0;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 0;
+    "_kCFNTimingDataNStatRXPackets" = 4;
+    "_kCFNTimingDataNStatTXBytes" = 859;
+    "_kCFNTimingDataNStatTXPackets" = 2;
+    "_kCFNTimingDataNStatTXRetransmit" = 0;
+    "_kCFNTimingDataNStatVarRTT" = 37;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 3073;
+    "_kCFNTimingDataNStatWiredTXPackets" = 859;
+}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RequestStart:597664066.285814
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseEnd:597664066.509962
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesSent:360
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStopTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 38;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 37;
+    "_kCFNTimingDataNStatRXBytes" = 142677;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 0;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 2986;
+    "_kCFNTimingDataNStatRXPackets" = 111;
+    "_kCFNTimingDataNStatTXBytes" = 1264;
+    "_kCFNTimingDataNStatTXPackets" = 3;
+    "_kCFNTimingDataNStatTXRetransmit" = 0;
+    "_kCFNTimingDataNStatVarRTT" = 0;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 142677;
+    "_kCFNTimingDataNStatWiredTXPackets" = 1264;
+}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectEnd:597664066.283694
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectStart:597664066.073694
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] --------结束--------
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ----开始--------
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] url:https://ecuat.tk.cn/tk-online/pos/trb/css/chunk-vendors.b93d4f01.css
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] time:16486567
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesDecoded:199240
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesReceived:199479
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] LocalAddressAndPort:192.168.1.170:52687
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RemoteAddressAndPort:119.253.81.48:443
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] RequestHeaderSize:371
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [stopLoading] url:<NSMutableURLRequest: 0x60000044c250> { URL: https://ecuat.tk.cn/tk-online/pos/trb/css/chunk-vendors.b93d4f01.css }
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] SecureConnectionStart:597664066.169098
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseHeaderSize:239
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TimingDataInit:597664066.013476
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] NetworkProtocolName:http/1.1
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionInterfaceIdentifier:en19
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseStart:597664066.355725
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesReceived:199240
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionUUID:FD1AADAB-8FF6-4703-AD07-6A5956D5B2A8
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupStart:597664066.041098
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionPeerAddress:{length = 16, bytes = 0x100201bb77fd51300000000000000000}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] TCPFastOpenStats:{
+    TFOSuccess = 0;
+}
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] FetchStart:597664066.013476
+2019-12-10 17:47:46 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupEnd:597664066.066098
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] RequestEnd:597664066.297323
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionReused:0
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStartTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 73;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 93;
+    "_kCFNTimingDataNStatRXBytes" = 3073;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 0;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 0;
+    "_kCFNTimingDataNStatRXPackets" = 4;
+    "_kCFNTimingDataNStatTXBytes" = 859;
+    "_kCFNTimingDataNStatTXPackets" = 2;
+    "_kCFNTimingDataNStatTXRetransmit" = 0;
+    "_kCFNTimingDataNStatVarRTT" = 40;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 3073;
+    "_kCFNTimingDataNStatWiredTXPackets" = 859;
+}
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] RequestStart:597664066.297215
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ResponseEnd:597664066.990466
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesSent:371
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStopTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 44;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 39;
+    "_kCFNTimingDataNStatRXBytes" = 204940;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 1214;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 4654;
+    "_kCFNTimingDataNStatRXPackets" = 158;
+    "_kCFNTimingDataNStatTXBytes" = 1280;
+    "_kCFNTimingDataNStatTXPackets" = 3;
+    "_kCFNTimingDataNStatTXRetransmit" = 0;
+    "_kCFNTimingDataNStatVarRTT" = 13;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 204940;
+    "_kCFNTimingDataNStatWiredTXPackets" = 1280;
+}
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ConnectEnd:597664066.296098
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ConnectStart:597664066.071098
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] --------结束--------
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ----开始--------
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] url:https://ecuat.tk.cn/tk-online/pos/trb/js/chunk-vendors.c5f7e3c1.js
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] time:17133819
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesDecoded:782926
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesReceived:783179
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] LocalAddressAndPort:192.168.1.170:52689
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] RemoteAddressAndPort:119.253.81.48:443
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [stopLoading] url:<NSMutableURLRequest: 0x60000044c2f0> { URL: https://ecuat.tk.cn/tk-online/pos/trb/js/chunk-vendors.c5f7e3c1.js }
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] RequestHeaderSize:354
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] SecureConnectionStart:597664066.165086
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ResponseHeaderSize:253
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] TimingDataInit:597664066.0177391
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] NetworkProtocolName:http/1.1
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionInterfaceIdentifier:en19
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ResponseStart:597664066.354588
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesReceived:782926
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionUUID:B1F8FF91-0580-4DE1-9BC6-03C19956D718
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupStart:597664066.045086
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionPeerAddress:{length = 16, bytes = 0x100201bb77fd51300000000000000000}
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] TCPFastOpenStats:{
+    TFOSuccess = 0;
+}
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] FetchStart:597664066.0177391
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupEnd:597664066.068086
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] RequestEnd:597664066.290802
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionReused:0
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStartTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 73;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 92;
+    "_kCFNTimingDataNStatRXBytes" = 3073;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 0;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 0;
+    "_kCFNTimingDataNStatRXPackets" = 4;
+    "_kCFNTimingDataNStatTXBytes" = 859;
+    "_kCFNTimingDataNStatTXPackets" = 2;
+    "_kCFNTimingDataNStatTXRetransmit" = 0;
+    "_kCFNTimingDataNStatVarRTT" = 38;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 3073;
+    "_kCFNTimingDataNStatWiredTXPackets" = 859;
+}
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] RequestStart:597664066.290682
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ResponseEnd:597664067.6379009
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesSent:354
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStopTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 39;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 36;
+    "_kCFNTimingDataNStatRXBytes" = 790932;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 1493;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 3012;
+    "_kCFNTimingDataNStatRXPackets" = 606;
+    "_kCFNTimingDataNStatTXBytes" = 1264;
+    "_kCFNTimingDataNStatTXPackets" = 3;
+    "_kCFNTimingDataNStatTXRetransmit" = 0;
+    "_kCFNTimingDataNStatVarRTT" = 0;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 790932;
+    "_kCFNTimingDataNStatWiredTXPackets" = 1264;
+}
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ConnectEnd:597664066.289086
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] ConnectStart:597664066.072086
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [TimingData] --------结束--------
+2019-12-10 17:47:47 +0000 [bonreeAgent] [WEB]  JS Info<UIOPen>: {"p":"https://ecuat.tk.cn/tk-online/pos/trb/#/prdResult?pageId=dff46ee58c394be0a788fc8b5d7b93e0","u":"https://ecuat.tk.cn/whCustomerConversion/tkpc/productInfo"}
+2019-12-10 17:47:47 +0000 [bonreeAgent] [WEB]  JS Info<UILog>: trigger load event.
+2019-12-10 17:47:47 +0000 [bonreeAgent] [NET]  [caninit] POST url:https://ecuat.tk.cn/whCustomerConversion/tkpc/productInfo
+2019-12-10 17:47:47 +0000 [bonreeAgent] [WEB]  JS Info<UILog>: resource timing api is not supported.
+2019-12-10 17:47:47 +0000 [bonreeAgent] [WEB]  JS Info<UIpageData>: {"PD":{"ns":1575971265445,"url":"https://ecuat.tk.cn/tk-online/pos/trb/#/prdResult?pageId=dff46ee58c394be0a788fc8b5d7b93e0","pvid":"1cc032fd-7d7d-4f11-861d-0aeabc86cd97","fs":0,"reqs":0,"rsps":0,"rspe":558,"dcles":2342,"dclee":2342,"di":2342,"dc":2343,"dl":559,"les":2343,"lee":2343,"ues":-1,"uee":-1,"scs":-1,"ce":0,"cs":0,"dle":0,"dls":0,"rde":-1,"rds":-1},"RD":[],"ED":[]}
+2019-12-10 17:47:47 +0000 [bonreeAgent]  cpuTimeUsToAppTime, appStartTime:116132882717, cpuTime:0
+2019-12-10 17:47:48 +0000 [bonreeAgent] [WEB]  JS Info<UILog>: xhrData toSend:{"i":"1cc032fd-7d7d-4f11-861d-0aeabc86cd97","p":"https://ecuat.tk.cn/tk-online/pos/trb/#/prdResult?pageId=dff46ee58c394be0a788fc8b5d7b93e0","u":"https://ecuat.tk.cn/whCustomerConversion/tkpc/productInfo","m":"POST","pr":"","st":200,"s":1575971267808,"req":45,"res":1425,"e":210,"fb":204,"d":0,"cb":0,"h":"200 OK\r\naccess-control-allow-credentials: true\r\naccess-control-allow-headers: Content-Type\r\naccess-control-allow-methods: GET,POST,OPTIONS\r\naccess-control-allow-origin: *\r\nconnection: close\r\ncontent-type: application/json;charset=UTF-8\r\ndate: Tue, 10 Dec 2019 09:47:48 GMT\r\nserver: openresty\r\n\r\n","a":"","oe":1,"ds":0,"de":0,"cs":0,"ce":0,"ssl":0}
+2019-12-10 17:47:48 +0000 [bonreeAgent] [WEB]  JS Info<UINetAjaxData>: {"i":"1cc032fd-7d7d-4f11-861d-0aeabc86cd97","p":"https://ecuat.tk.cn/tk-online/pos/trb/#/prdResult?pageId=dff46ee58c394be0a788fc8b5d7b93e0","u":"https://ecuat.tk.cn/whCustomerConversion/tkpc/productInfo","m":"POST","pr":"","st":200,"s":1575971267808,"req":45,"res":1425,"e":210,"fb":204,"d":0,"cb":0,"h":"200 OK\r\naccess-control-allow-credentials: true\r\naccess-control-allow-headers: Content-Type\r\naccess-control-allow-methods: GET,POST,OPTIONS\r\naccess-control-allow-origin: *\r\nconnection: close\r\ncontent-type: application/json;charset=UTF-8\r\ndate: Tue, 10 Dec 2019 09:47:48 GMT\r\nserver: openresty\r\n\r\n","a":"","oe":1,"ds":0,"de":0,"cs":0,"ce":0,"ssl":0}
+2019-12-10 17:47:48 +0000 [bonreeAgent] [NET]  [AjaxTime] url:https://ecuat.tk.cn/whCustomerConversion/tkpc/productInfo time:17569839
+2019-12-10 17:48:01 +0000 [bonreeAgent]  -[BRSTcping tcpingWithPingAddress:]
+2019-12-10 17:48:01 +0000 [bonreeAgent] [UPLOAD]  -[BRSUploadService uploadDataWithIsCrash:isBackground:result:]
+2019-12-10 17:48:01 +0000 [bonreeAgent] [UPLOAD]  +[BRSUploadHelper currentSDKRequestWithIsCrash:isBackground:deviceIp:]
+
+2019-12-10 17:48:01 +0000 [bonreeAgent] [UPLOAD]  +[BRSUploadHelper currentUploadModelWithIsCrash:isBackground:]
+
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  +[BRSNetModuleModelManager getNetModuleCollectDataAndClear]
+
+2019-12-10 17:48:01 +0000 [bonreeAgent] [UPLOAD]  url:https://devtest.ibr.cc:20108/upload?key=ac629f8f-df02-4b8f-aa52-44bf292c6507_B356B75D-AC64-4832-BD87-2B9DA894B940
+2019-12-10 17:48:01 +0000 [bonreeAgent] [UPLOAD]
+{
+  "h" : {
+    "ai" : "ac629f8f-df02-4b8f-aa52-44bf292c6507",
+    "di" : {
+      "an" : "iOSDemo",
+      "av" : "1.0.0(1)",
+      "bn" : "apple",
+      "ch" : "apple",
+      "ci" : "Intel x86",
+      "cm" : "Intel x86",
+      "di" : "B356B75D-AC64-4832-BD87-2B9DA894B940",
+      "ds" : "1242*2688",
+      "ir" : false,
+      "l" : "en",
+      "m" : "iPhone Simulator(iPhone 11 Pro Max)",
+      "ov" : "iOS, 13.2.2",
+      "pi" : "Agent Demo",
+      "pm" : "x86_64",
+      "tm" : 16384
+    },
+    "dip" : 2005480489,
+    "sv" : "6.3.3"
+  },
+  "udr" : {
+    "d" : [
+      {
+        "amt" : 1575971250114,
+        "ar" : [
+          {
+            "ai" : 2545799274,
+            "an" : "iOSDemo.BRModuleListViewController",
+            "ct" : 215943,
+            "et" : 7268838,
+            "fr" : [
+
+            ],
+            "iq" : false,
+            "lt" : 85467,
+            "st" : 301410
+          },
+          {
+            "ai" : 2847276461,
+            "an" : "iOSDemo.WebViewListViewController",
+            "ct" : 6733231,
+            "et" : 8161689,
+            "fr" : [
+
+            ],
+            "iq" : false,
+            "lt" : 536183,
+            "st" : 7269414
+          },
+          {
+            "ai" : 2035097273,
+            "an" : "iOSDemo.WebViewAddressViewController",
+            "ct" : 7594769,
+            "et" : 9716157,
+            "fr" : [
+
+            ],
+            "iq" : false,
+            "lt" : 567263,
+            "st" : 8162032
+          },
+          {
+            "ai" : 515615665,
+            "an" : "iOSDemo.SelectOptionsViewController",
+            "ct" : 9173365,
+            "et" : 13136832,
+            "fr" : [
+
+            ],
+            "iq" : false,
+            "lt" : 543140,
+            "st" : 9716505
+          },
+          {
+            "ai" : 2035097273,
+            "an" : "iOSDemo.WebViewAddressViewController",
+            "ct" : 12617346,
+            "et" : 15398131,
+            "fr" : [
+
+            ],
+            "iq" : false,
+            "lt" : 519867,
+            "st" : 13137213
+          }
+        ],
+        "car" : [
+
+        ],
+        "cmt" : 1575971250655,
+        "dci" : [
+
+        ],
+        "dl" : [
+
+        ],
+        "i" : [
+
+        ],
+        "l" : [
+
+        ],
+        "nr" : [
+          [
+            "ru",
+            "si",
+            "tp",
+            "st",
+            "dt",
+            "ct",
+            "sti",
+            "rt",
+            "rti",
+            "dti",
+            "et",
+            "rh",
+            "rd",
+            "rhe",
+            "rds",
+            "ei",
+            "se",
+            "ib",
+            "mt",
+            "rg",
+            "rgu",
+            "iw",
+            "lc",
+            "s",
+            "mi",
+            "kv",
+            "pt",
+            "cna",
+            "tip",
+            "dsip",
+            "ns"
+          ],
+          [
+            "http://devtest.ibr.cc:20107/config",
+            0,
+            20107,
+            96893,
+            23000,
+            37999,
+            0,
+            814,
+            42361,
+            1605,
+            97707,
+            "",
+            1376,
+            "",
+            745,
+            0,
+            200,
+            false,
+            "application/octet-stream",
+            "",
+            "",
+            false,
+            "devtest.ibr.cc",
+            0,
+            "",
+            "",
+            "1",
+            [
+              "devtest.ibr.cc"
+            ],
+            "118.194.54.130",
+            "fe80::1",
+            "WiFi"
+          ],
+          [
+            "https://ecuat.tk.cn/tk-online/pos/trb/#/prdResult?pageId=dff46ee58c394be0a788fc8b5d7b93e0",
+            0,
+            443,
+            14971926,
+            47000,
+            384000,
+            261000,
+            211,
+            43570,
+            42222,
+            14972137,
+            "",
+            674,
+            "",
+            1706,
+            0,
+            200,
+            false,
+            "text/html",
+            "",
+            "",
+            true,
+            "ecuat.tk.cn",
+            10,
+            "",
+            "",
+            "2",
+            [
+              "ecuat.tk.cn"
+            ],
+            "119.253.81.48",
+            "fe80::1",
+            "WiFi"
+          ],
+          [
+            "https://res.wx.qq.com/open/js/jweixin-1.0.0.js",
+            0,
+            443,
+            15507871,
+            27999,
+            139000,
+            103000,
+            140,
+            20774,
+            3740,
+            15508011,
+            "",
+            372,
+            "",
+            3814,
+            0,
+            200,
+            false,
+            "application/x-javascript",
+            "",
+            "",
+            true,
+            "res.wx.qq.com.sched.ssdv6.tdnsv6.com",
+            23,
+            "",
+            "",
+            "4",
+            [
+              "res.wx.qq.com",
+              "reswx.tc.qq.com",
+              "res.wx.qq.com.v6.tcdn.qq.com",
+              "res.wx.qq.com.sched.ssdv6.tdnsv6.com"
+            ],
+            "240e:ff:d300:204:12:",
+            "fe80::1",
+            "WiFi"
+          ],
+          [
+            "https://ecuat.tk.cn/tk-online/pos/trb/base64.js",
+            0,
+            443,
+            15508238,
+            26999,
+            232000,
+            128000,
+            107,
+            53836,
+            310,
+            15508345,
+            "",
+            670,
+            "",
+            2661,
+            0,
+            200,
+            false,
+            "application/javascript",
+            "",
+            "",
+            true,
+            "ecuat.tk.cn",
+            23,
+            "",
+            "",
+            "2",
+            [
+              "ecuat.tk.cn"
+            ],
+            "119.253.81.48",
+            "fe80::1",
+            "WiFi"
+          ],
+          [
+            "https://ecuat.tk.cn/tk-online/pos/trb/css/app.78a9ad11.css",
+            0,
+            443,
+            15510176,
+            24000,
+            235000,
+            128000,
+            91,
+            50924,
+            82253,
+            15510267,
+            "",
+            722,
+            "",
+            25415,
+            0,
+            200,
+            false,
+            "text/css",
+            "",
+            "",
+            true,
+            "ecuat.tk.cn",
+            23,
+            "",
+            "",
+            "2",
+            [
+              "ecuat.tk.cn"
+            ],
+            "119.253.81.48",
+            "fe80::1",
+            "WiFi"
+          ],
+          [
+            "https://ecuat.tk.cn/tk-online/pos/trb/app.caf0cc767f97177f757b.bundle.js",
+            0,
+            443,
+            15513843,
+            22000,
+            210000,
+            123000,
+            218,
+            67436,
+            156494,
+            15514061,
+            "",
+            720,
+            "",
+            138925,
+            0,
+            200,
+            false,
+            "application/javascript",
+            "",
+            "",
+            true,
+            "ecuat.tk.cn",
+            23,
+            "",
+            "",
+            "2",
+            [
+              "ecuat.tk.cn"
+            ],
+            "119.253.81.48",
+            "fe80::1",
+            "WiFi"
+          ],
+          [
+            "https://ecuat.tk.cn/tk-online/pos/trb/css/chunk-vendors.b93d4f01.css",
+            0,
+            443,
+            15509576,
+            24999,
+            225000,
+            127000,
+            108,
+            58402,
+            634741,
+            15509684,
+            "",
+            742,
+            "",
+            199718,
+            0,
+            200,
+            false,
+            "text/css",
+            "",
+            "",
+            true,
+            "ecuat.tk.cn",
+            23,
+            "",
+            "",
+            "2",
+            [
+              "ecuat.tk.cn"
+            ],
+            "119.253.81.48",
+            "fe80::1",
+            "WiFi"
+          ],
+          [
+            "https://ecuat.tk.cn/tk-online/pos/trb/js/chunk-vendors.c5f7e3c1.js",
+            0,
+            443,
+            15513657,
+            23000,
+            217000,
+            124000,
+            120,
+            63786,
+            1283312,
+            15513777,
+            "",
+            708,
+            "",
+            783432,
+            0,
+            200,
+            false,
+            "application/javascript",
+            "",
+            "",
+            true,
+            "ecuat.tk.cn",
+            23,
+            "",
+            "",
+            "2",
+            [
+              "ecuat.tk.cn"
+            ],
+            "119.253.81.48",
+            "fe80::1",
+            "WiFi"
+          ],
+          [
+            "https://ecuat.tk.cn/whCustomerConversion/tkpc/productInfo",
+            0,
+            443,
+            17365839,
+            0,
+            0,
+            0,
+            210000,
+            204000,
+            999,
+            17575839,
+            "",
+            45,
+            "",
+            1425,
+            0,
+            200,
+            false,
+            " application/json;charset=utf-8",
+            "",
+            "",
+            true,
+            "ecuat.tk.cn",
+            23,
+            "",
+            "",
+            "2",
+            [
+              "ecuat.tk.cn"
+            ],
+            "119.253.81.48",
+            "fe80::1",
+            "WiFi"
+          ]
+        ],
+        "nsi" : {
+          "ns" : "WiFi",
+          "s" : 23
+        },
+        "s" : [
+
+        ],
+        "si" : "4:2:4d6c3234-3224-4adc-9cc1-a12ef3ef2874",
+        "ti" : [
+
+        ],
+        "ut" : [
+          [
+            "st",
+            "an",
+            "fn",
+            "utst",
+            "f",
+            "mi"
+          ],
+          [
+            7052895,
+            "iOSDemo.BRModuleListViewController",
+            "",
+            215943,
+            [
+              {
+                "c" : "iOSDemo.BRModuleListViewController",
+                "e" : "viewDidLoad",
+                "st" : 215943
+              },
+              {
+                "c" : "iOSDemo.BRModuleListViewController",
+                "e" : "tableView:didSelectRowAtIndexPath:(UITableView:{{0, 0}, {414, 808}},tag=0,section=0,row=1)",
+                "st" : 6659848
+              },
+              {
+                "c" : "iOSDemo.BRModuleListViewController",
+                "e" : "viewDidDisappear:",
+                "st" : 7268838
+              }
+            ],
+            ""
+          ],
+          [
+            1428458,
+            "iOSDemo.WebViewListViewController",
+            "",
+            6733231,
+            [
+              {
+                "c" : "iOSDemo.WebViewListViewController",
+                "e" : "viewDidLoad",
+                "st" : 6733231
+              },
+              {
+                "c" : "iOSDemo.WebViewListViewController",
+                "e" : "tableView:didSelectRowAtIndexPath:(UITableView:{{0, 0}, {414, 808}},tag=0,section=0,row=0)",
+                "st" : 7523676
+              },
+              {
+                "c" : "iOSDemo.WebViewListViewController",
+                "e" : "viewDidDisappear:",
+                "st" : 8161689
+              }
+            ],
+            ""
+          ],
+          [
+            2121388,
+            "iOSDemo.WebViewAddressViewController",
+            "",
+            7594769,
+            [
+              {
+                "c" : "iOSDemo.WebViewAddressViewController",
+                "e" : "viewDidLoad",
+                "st" : 7594769
+              },
+              {
+                "c" : "iOSDemo.WebViewAddressViewController",
+                "e" : "tableView:didSelectRowAtIndexPath:(UITableView:{{0, 88}, {414, 808}},tag=0,section=1,row=1)",
+                "st" : 9117851
+              },
+              {
+                "c" : "iOSDemo.WebViewAddressViewController",
+                "e" : "viewDidDisappear:",
+                "st" : 9716157
+              }
+            ],
+            ""
+          ],
+          [
+            3963467,
+            "iOSDemo.SelectOptionsViewController",
+            "",
+            9173365,
+            [
+              {
+                "c" : "iOSDemo.SelectOptionsViewController",
+                "e" : "viewDidLoad",
+                "st" : 9173365
+              },
+              {
+                "c" : "iOSDemo.SelectOptionsViewController",
+                "e" : "tableView:didSelectRowAtIndexPath:(UITableView:{{0, 0}, {414, 808}},tag=0,section=0,row=5)",
+                "st" : 11888819
+              },
+              {
+                "c" : "_UIButtonBarTargetAction",
+                "e" : "_invoke:forEvent:(_UIButtonBarButton:{{175.99999999999997, 0}, {42.666666666666664, 44}},tag=0)",
+                "st" : 12611870
+              },
+              {
+                "c" : "iOSDemo.SelectOptionsViewController",
+                "e" : "viewDidDisappear:",
+                "st" : 13136832
+              }
+            ],
+            ""
+          ],
+          [
+            2780785,
+            "iOSDemo.WebViewAddressViewController",
+            "",
+            12617346,
+            [
+              {
+                "c" : "iOSDemo.WebViewAddressViewController",
+                "e" : "viewWillAppear:",
+                "st" : 12617346
+              },
+              {
+                "c" : "_UIButtonBarTargetAction",
+                "e" : "_invoke:forEvent:(_UIButtonBarButton:{{0, 0}, {42.666666666666664, 44}},tag=0)",
+                "st" : 14791683
+              },
+              {
+                "c" : "iOSDemo.WebViewAddressViewController",
+                "e" : "viewDidDisappear:",
+                "st" : 15398131
+              }
+            ],
+            ""
+          ]
+        ],
+        "we" : [
+
+        ],
+        "wi" : [
+          [
+            "pvid",
+            "url",
+            "wn",
+            "wpt",
+            "wr",
+            "we",
+            "jen",
+            "mi"
+          ],
+          [
+            "1cc032fd-7d7d-4f11-861d-0aeabc86cd97",
+            "https://ecuat.tk.cn/tk-online/pos/trb/#/prdResult?pageId=dff46ee58c394be0a788fc8b5d7b93e0",
+            "iOSDemo.WebViewContentViewController",
+            {
+              "ce" : 0,
+              "cs" : 0,
+              "dc" : 2343,
+              "dclee" : 2342,
+              "dcles" : 2342,
+              "di" : 2342,
+              "dl" : 559,
+              "dle" : 0,
+              "dls" : 0,
+              "fs" : 0,
+              "lee" : 2343,
+              "les" : 2343,
+              "ns" : 1575971265445,
+              "rde" : -1,
+              "rds" : -1,
+              "reqs" : 0,
+              "rspe" : 558,
+              "rsps" : 0,
+              "scs" : -1,
+              "uee" : -1,
+              "ues" : -1
+            },
+            [
+
+            ],
+            [
+
+            ],
+            0,
+            ""
+          ]
+        ]
+      }
+    ],
+    "iat" : true,
+    "tu" : {
+      "mu" : 0,
+      "wu" : 1743600
+    }
+  }
+}
+2019-12-10 17:48:01 +0000 [bonreeAgent]  tcping connect cost:12 ms
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] ----开始--------
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] url:https://devtest.ibr.cc:20108/upload?key=ac629f8f-df02-4b8f-aa52-44bf292c6507_B356B75D-AC64-4832-BD87-2B9DA894B940
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] time:30766714
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesDecoded:46
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesReceived:242
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] LocalAddressAndPort:192.168.1.170:52693
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] RemoteAddressAndPort:118.194.54.130:20108
+2019-12-10 17:48:01 +0000 [bonreeAgent] [UPLOAD]
+{
+  "ur" : {
+    "nt" : true,
+    "rc" : 19
+  }
+}
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] RequestHeaderSize:403
+2019-12-10 17:48:01 +0000 [bonreeAgent]  +[SDKResponse modelWithJsonData:], 解析数据
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] SecureConnectionStart:597664081.120804
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] ResponseHeaderSize:196
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] TimingDataInit:597664081.067261
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] NetworkProtocolName:http/1.1
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionInterfaceIdentifier:en19
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] ResponseStart:597664081.269564
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] ResponseBodyBytesReceived:46
+2019-12-10 17:48:01 +0000 [bonreeAgent] [UPLOAD]  bonreeAgent upload succeeded <appVersion:1.0.0(1)> 数据上传成功
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionUUID:BC041933-E342-42D7-9ECB-3B9BAEAB569E
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupStart:597664081.0738039
+2019-12-10 17:48:01 +0000 [bonreeAgent] [UPLOAD]  不存在待上传数据，upload内循环结束
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionPeerAddress:{length = 16, bytes = 0x10024e8c76c236820000000000000000}
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] TCPFastOpenStats:{
+    TFOSuccess = 0;
+}
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] FetchStart:597664081.067261
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] DomainLookupEnd:597664081.0738039
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] RequestEnd:597664081.225136
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionReused:0
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStartTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 38;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 45;
+    "_kCFNTimingDataNStatRXBytes" = 3304;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 0;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 0;
+    "_kCFNTimingDataNStatRXPackets" = 4;
+    "_kCFNTimingDataNStatTXBytes" = 699;
+    "_kCFNTimingDataNStatTXPackets" = 2;
+    "_kCFNTimingDataNStatTXRetransmit" = 0;
+    "_kCFNTimingDataNStatVarRTT" = 12;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 3304;
+    "_kCFNTimingDataNStatWiredTXPackets" = 699;
+}
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] RequestStart:597664081.224586
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] ResponseEnd:597664081.270066
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] TotalBytesSent:2493
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] ConnectionStopTimeCounts:{
+    "_kCFNTimingDataNStatAvgRTT" = 39;
+    "_kCFNTimingDataNStatCellRXPackets" = 0;
+    "_kCFNTimingDataNStatCellTXPackets" = 0;
+    "_kCFNTimingDataNStatConnectAttempts" = 1;
+    "_kCFNTimingDataNStatConnectSuccesses" = 1;
+    "_kCFNTimingDataNStatMinRTT" = 44;
+    "_kCFNTimingDataNStatRXBytes" = 3629;
+    "_kCFNTimingDataNStatRXDuplicateBytes" = 0;
+    "_kCFNTimingDataNStatRXOutOfOrderBytes" = 0;
+    "_kCFNTimingDataNStatRXPackets" = 5;
+    "_kCFNTimingDataNStatTXBytes" = 3349;
+    "_kCFNTimingDataNStatTXPackets" = 5;
+    "_kCFNTimingDataNStatTXRetransmit" = 0;
+    "_kCFNTimingDataNStatVarRTT" = 9;
+    "_kCFNTimingDataNStatWifiRXPackets" = 0;
+    "_kCFNTimingDataNStatWifiTXPackets" = 0;
+    "_kCFNTimingDataNStatWiredRXPackets" = 3629;
+    "_kCFNTimingDataNStatWiredTXPackets" = 3349;
+}
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] ConnectEnd:597664081.222804
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] ConnectStart:597664081.0748039
+2019-12-10 17:48:01 +0000 [bonreeAgent] [NET]  [TimingData] --------结束--------
+2019-12-10 17:48:02 +0000 [bonreeAgent] [LAG]  hadStuck = 49, isRunning = 1
+2019-12-10 17:48:07 +0000 [bonreeAgent] [LAG]  hadStuck = 49, isRunning = 1
