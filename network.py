@@ -120,7 +120,7 @@ def extractionIndexTimingData(dict):
 
     temp_dict["dt"] = differenceValue(dict.get("DomainLookupEnd"), dict.get("DomainLookupStart"))
 
-    temp_dict["ct"] = differenceValue(dict.get("ConnectEnd"), dict.get("ConnectStart"))
+
 
     SecureConnectionEnd = float(dict.get("SecureConnectionEnd"))
     SecureConnectionStart = float(dict.get("SecureConnectionStart"))
@@ -130,6 +130,8 @@ def extractionIndexTimingData(dict):
         temp_dict["sti"] = differenceValue(dict.get("ConnectEnd"), dict.get("SecureConnectionStart"))
     else:
         temp_dict["sti"] = 0
+
+    temp_dict["ct"] = differenceValue(dict.get("ConnectEnd"), dict.get("ConnectStart")) - temp_dict["sti"]
 
     temp_dict["rt"] = differenceValue(dict.get("RequestEnd"), dict.get("RequestStart"))
 
@@ -516,7 +518,7 @@ def networkErrorCorrection(netResults, timingDatas, ajaxDatas, ajaxTimes, pageDa
             elif tempData['PD'].get('dc'):
                 tempStartTime = tempData['PD']['dc']
             # 根据ajaxTime重新计算st 和 et
-            tempPageData['st'] = ajaxTimes[tempPageData['ru']] - tempStartTime
+            tempPageData['st'] = ajaxTimes[tempPageData['ru']] - tempStartTime * 1000
             tempPageData["et"] = tempPageData["st"] + tempPageData["rt"]
         except:
             print('pageData st 和 et 计算有误')
@@ -525,7 +527,7 @@ def networkErrorCorrection(netResults, timingDatas, ajaxDatas, ajaxTimes, pageDa
 
         for resultData in tempData['RD']:
             tempResultData = extractionIndexResultData(resultData)
-            tempResultData['st'] = tempPageData['st'] + tempResultData['st']
+            tempResultData['st'] = tempPageData['st'] + tempResultData['st'] * 1000
             tempResultData["et"] = tempResultData["st"] + tempResultData["rt"]
             tempTimingDatas.append(tempResultData)
 
@@ -593,7 +595,7 @@ def dataVerification(value1, value2):
         f1 = float(value1)
         f2 = float(value2)
 
-        if abs(f1 - f2) <= 1:
+        if abs(f1 - f2) <= 2:
             return True
     return False
 
